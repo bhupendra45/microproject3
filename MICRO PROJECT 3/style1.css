@@ -1,0 +1,39 @@
+.box{
+    background: #3B4664;
+    border: 1px solid;
+    height: 345vh;
+    width: 100%;  
+}
+#inputbox{
+    border: 1px solid;
+    font-size: 45pt;
+    background: black;
+    color: aliceblue;
+    height: 15vh;
+    margin-left: 20%;
+    margin-top: 8%;
+    text-align: right;
+}
+.cla{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    background: #252D44;
+    column-gap: 20px;
+    justify-content: space-between;
+    height: 56vh;
+    width: 77vh;
+    margin-left: 24%;
+    margin-top: 2%;
+    row-gap: 3%;
+}
+#calbox{
+
+    background-color:white;
+    border: 1px solid black;
+    padding: 20px;
+    font-size:xx-large;
+    font-weight: bolder;
+    text-align: center;
+    cursor: pointer;
+}
+

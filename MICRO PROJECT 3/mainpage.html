@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>micro project 3</title>
+    <link rel="stylesheet" href="style1.css">
+    </head>
+    <body  >
+        <div class="box">
+            <input type="text" id="inputbox" onclick="display()" disabled >
+           <div class=" cla" >
+           
+           <button id="calbox" onclick="appendNumber('7')">7</button>   
+            <button id="calbox" onclick="appendNumber('8')">8</button>
+           <button id="calbox" onclick="appendNumber('9')">9</button>
+           <button id="calbox" onclick="removeNumber()">DEL</button>
+            <button id="calbox" onclick="appendNumber('4')">4</button>
+            <button id="calbox" onclick="appendNumber('5')">5</button>
+            <button id="calbox" onclick="appendNumber('6')">6</button>
+            <button id="calbox" onclick="appendNumber('+')" >+</button>
+            
+            <button id="calbox" onclick="appendNumber('1')">1</button>
+            <button id="calbox" onclick="appendNumber('2')">2</button>
+            <button id="calbox" onclick="appendNumber('3')">3</button>
+            <button id="calbox" onclick="appendNumber('-')">-</button>
+            
+            <button id="calbox" onclick="appendNumber('.')">.</button>
+            <button id="calbox" onclick="appendNumber('0')">0</button>
+            <button id="calbox" onclick="appendNumber('/')">/</button>
+            <button id="calbox" onclick="appendNumber('*')">x</button>
+            
+                <button id="calbox" style="background-color: gray;  grid-column: 1 / span 2;" onclick="clear()">RESET</button>
+            <button id="calbox" style="background-color: red; color: white; grid-column: 3 / span 2;" onclick="calculate()">=</button>
+           </div>
+        </div>
+        <script src="lcallogic.js"> he</script>
+    </body>
+</html>
